@@ -1,31 +1,25 @@
 <!DOCTYPE html>
-<html ng-app="myApp">
+<html ng-app="MyApp">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>My AngularApp</title>
+        <title>My App</title>
 
         <meta name="description" content="">
         <meta name="viewport"    content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="css/main.css">
-
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet"   href="assets/css/main.css">
     </head>
 
     <body>
         <section ng-view></section>
 
+        <!-- Load AngularJS source -->
         <script src="assets/js/libs/angular.min.js"></script>
 
-        <!-- Modules     -->
-
-        <!-- Controllers -->
-
-        <!-- Services    -->
-
-        <!-- Directives  -->
+        <!-- Load controllers -->
+        <script src="assets/js/controllers/controllers.js"></script>
 
         <script src="assets/js/app.js"></script>
     </body>
