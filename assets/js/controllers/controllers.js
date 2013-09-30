@@ -1,7 +1,7 @@
 app.controller('MainCtrl', function($scope) {
   $scope.listItem = [
-    'This is the content of assets/views/mainView.html',
-    'Loaded for the main root of this app',
-    'Defined in the "assets/js/app.js"'
+    { text: 'This is the content of assets/views/mainView.html' },
+    { text: 'Loaded for the main root of this app' },
+    { text: 'Defined in the "assets/js/app.js"' }
   ];
 });
