@@ -25,7 +25,7 @@ Start AngularJS App
         └── MainCtrl_Spec.js
 ```
 
-##Estrutura de pastas
+##Estrutura
 
 - **index.html**: Nosso html principal, onde inserimos os scripts e css necessários
 
