@@ -1,6 +1,6 @@
 Start AngularJS App
 ==================
-Para rodar o app execite:
+Para rodar o app execute:
 
 ```
 python -m SimpleHTTPServer
