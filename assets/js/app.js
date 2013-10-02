@@ -1,5 +1,4 @@
-var app = angular.module('MyApp', [])
-  .value('version', 'v1.0')
+var app = angular.module('myApp', [])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
