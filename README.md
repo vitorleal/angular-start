@@ -1,6 +1,14 @@
 Start AngularJS App
 ==================
+Para rodar o app execite:
 
+```
+python -m SimpleHTTPServer
+```
+Visite a url [http://localhost:8000](http://localhost:8000)
+
+
+##Estrutura
 ```
 ├── FrontEnd-com-AnguarJS.pdf
 ├── README.md
@@ -24,8 +32,7 @@ Start AngularJS App
     └── controllers
         └── MainCtrl_Spec.js
 ```
-
-##Estrutura
+***
 
 - **index.html**: Nosso html principal, onde inserimos os scripts e css necessários
 
