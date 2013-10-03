@@ -7,10 +7,18 @@ python -m SimpleHTTPServer
 ```
 Visite a url [http://localhost:8000](http://localhost:8000)
 
+##Apresentação
+- [WebApps com AngularJS](http://vitorleal.github.io/angularjs-talk/)
+
+- [SpeakerDeck](https://speakerdeck.com/vitorleal/webapps-com-angularjs)
+
+- Ou em PDF neste repositório **"./WebApps com AngularJS.pdf"**
+
+
 
 ##Estrutura
 ```
-├── FrontEnd-com-AnguarJS.pdf
+├── WebApps com AngularJS.pdf
 ├── README.md
 ├── assets
 │   ├── css
