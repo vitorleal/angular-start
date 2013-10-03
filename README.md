@@ -12,7 +12,7 @@ Visite a url [http://localhost:8000](http://localhost:8000)
 
 - [SpeakerDeck](https://speakerdeck.com/vitorleal/webapps-com-angularjs)
 
-- Ou em PDF neste repositório **"./WebApps com AngularJS.pdf"**
+- Em PDF neste repositório **"./WebApps com AngularJS.pdf"**
 
 
 
