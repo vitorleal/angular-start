@@ -1,22 +1,22 @@
 Start AngularJS App
 ==================
-Para rodar o app execute:
+To run the app:
 
 ```
 python -m SimpleHTTPServer
 ```
-Visite a url [http://localhost:8000](http://localhost:8000)
+Go to the url [http://localhost:8000](http://localhost:8000)
 
-##Apresentação
-- [WebApps com AngularJS](http://vitorleal.github.io/angularjs-talk/)
+##Presentation
+- [WebApps with AngularJS](http://vitorleal.github.io/angularjs-talk/)
 
-- [SpeakerDeck](https://speakerdeck.com/vitorleal/webapps-com-angularjs)
+- [SpeakerDeck](https://speakerdeck.com/vitorleal/webapps-with-angularjs)
 
-- Em PDF neste repositório **"./WebApps com AngularJS.pdf"**
+- The PDF in this repo **"./WebApps with AngularJS.pdf"**
 
 
 
-##Estrutura
+##Structure
 ```
 ├── WebApps com AngularJS.pdf
 ├── README.md
@@ -42,32 +42,32 @@ Visite a url [http://localhost:8000](http://localhost:8000)
 ```
 ***
 
-- **index.html**: Nosso html principal, onde inserimos os scripts e css necessários
+- **index.html**: Ower main html, where we insert all the scripts and css
 
-- **assets/css**: está o arquivo princial de estilos do app.
+- **assets/css**: The main css file.
 
-- **assets/js/app.js**: está a criação do módulo principal ("***myApp***") e configuração de rótas
+- **assets/js/app.js**: Ower main module is defined here ("***myApp***") and the route configuration
 
-- **assets/js/controllers/controllers.js**: está definido o nosso controller principal ("**MainCtrl**"). Também é onde você pode criar os outros controllers do seu app
+- **assets/js/controllers/controllers.js**: The main controller is here ("**MainCtrl**"). Also you can create other controllers for your app
 
-- **assets/js/libs/**: Está o framework do angular e também está "angular-mocks.js" para criar mocks da aplicação para os testes
+- **assets/js/libs/**: Here ypu can find the angularJS framework and also the "angular-mocks.js" so you can mock your controllers in the test specks
 
-- **assets/views/**: Está o template principal do app ("**mainView.html**"). També é onde você pode criar seus outros templates
+- **assets/views/**: Ower main template ("**mainView.html**"). You can create other templates here 
 
-- **karma.conf.js**: Estão as configuração para rodar os testes da aplicação utilizando [Karma](http://karma-runner.github.io/)
+- **karma.conf.js**: All the configs to run the tests speck using [Karma](http://karma-runner.github.io/)
 
-- **package.json**: Estão declaradas as dependências para executar os testes do app
+- **package.json**: You can find the dependencies to run the tests
 
-- **test/**: estão criados os tests em [Jasmine](http://pivotal.github.io/jasmine/). Lembrando que devem terminar em **Spec.js**
+- **test/**: The test usign Jasmin as test framework [Jasmine](http://pivotal.github.io/jasmine/). The name of the test filest should end with **Spec.js**
 
-##Testes
-Para rodas os testes primerio você tem que instalar as dependências. *(tem que ter nodeJS instalado na maquina)*
+##Tests
+To run the tests you should have [nodeJS](http://nodejs.org/) installed. *(tem que ter nodeJS instalado na maquina)*
 
 ```
 npm install
 ```
 
-Depois das dependências instaladas execute os testes:
+After that you can run the tests:
 
 ```
 npm test
