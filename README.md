@@ -1,4 +1,4 @@
-Start AngularJS App
+Simple AngularJS App
 ==================
 To run the app:
 
