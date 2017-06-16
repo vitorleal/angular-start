@@ -58,7 +58,7 @@ Go to the url [http://localhost:8000](http://localhost:8000)
 
 - **package.json**: You can find the dependencies to run the tests
 
-- **test/**: The test usign Jasmin as test framework [Jasmine](http://pivotal.github.io/jasmine/). The name of the test filest should end with **Spec.js**
+- **test/**: The test usign Jasmin as test framework [Jasmine](https://jasmine.github.io/). The name of the test filest should end with **Spec.js**
 
 ##Tests
 To run the tests you should have [nodeJS](http://nodejs.org/) installed. *(tem que ter nodeJS instalado na maquina)*
