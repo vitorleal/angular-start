@@ -5,9 +5,11 @@ To run the app:
 ```
 python -m SimpleHTTPServer
 ```
+
 Go to the url [http://localhost:8000](http://localhost:8000)
 
-##Presentation
+
+## Presentation
 - [WebApps with AngularJS](http://vitorleal.github.io/angularjs-talk/)
 
 - [SpeakerDeck](https://speakerdeck.com/vitorleal/webapps-with-angularjs)
@@ -16,7 +18,8 @@ Go to the url [http://localhost:8000](http://localhost:8000)
 
 
 
-##Structure
+## Structure
+
 ```
 ├── WebApps com AngularJS.pdf
 ├── README.md
@@ -40,6 +43,7 @@ Go to the url [http://localhost:8000](http://localhost:8000)
     └── controllers
         └── MainCtrl_Spec.js
 ```
+
 ***
 
 - **index.html**: Ower main html, where we insert all the scripts and css
@@ -60,7 +64,8 @@ Go to the url [http://localhost:8000](http://localhost:8000)
 
 - **test/**: The test usign Jasmin as test framework [Jasmine](https://jasmine.github.io/). The name of the test filest should end with **Spec.js**
 
-##Tests
+
+## Tests
 To run the tests you should have [nodeJS](http://nodejs.org/) installed. *(tem que ter nodeJS instalado na maquina)*
 
 ```
@@ -72,14 +77,3 @@ After that you can run the tests:
 ```
 npm test
 ```
-
-
-
-
-
-
-
-
-
-
-
